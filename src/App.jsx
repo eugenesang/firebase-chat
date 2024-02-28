@@ -4,6 +4,7 @@ import './App.css'
 import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup } from 'firebase/auth'
 import { getFirestore, onSnapshot, collection, addDoc, orderBy, query, serverTimestamp } from 'firebase/firestore'
 import { auth, app } from '../firebase'
+import Navbar from './components/NavBar'
 
 const db = getFirestore(app)
 
@@ -64,6 +65,8 @@ function App() {
   return (
     <div className='flex justify-center bg-gray-800 py-10 min-h-screen' >
       {user ? (
+      <>
+        <Navbar user={user} logout={() => auth.signOut()}  />
         <div>
           <div> Logged in as {user.displayName}</div>
           <input
@@ -71,7 +74,6 @@ function App() {
             onChange={e => setNewMessage(e.target.value)}
           />
           <button className=' bg-white rounded-[10px] hover:bg-blue-400 p-3' onClick={sendMessage}>Send Message</button>
-          <button className='mb-8 bg-white rounded-[10px] p-3' onClick={() => auth.signOut()}>Logout</button>
 
           <div className="flex flex-col gap-5">
 
@@ -85,6 +87,7 @@ function App() {
             ))}
           </div>
         </div>
+      </>
       ) :
 
         <button onClick={handleGoogleLogin}>Login with Google</button>
