@@ -2,6 +2,88 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: calc(100vw - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav img {
+  height: 30px;
+  border-radius: 50%;
+}
+nav .logo-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+}
+nav .logo-container .logo {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: gray;
+}
+nav .logo-container .logo img {
+  height: 30px;
+  width: 30px;
+}
+nav .user-info .avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+nav .user-info .avatar-container img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+nav .account-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  padding-top: 10px;
+  border: 1px solid gray;
+}
+nav .account-dropdown .user-detail {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+nav .account-dropdown .user-detail .icon {
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 50%;
+}
+nav .account-dropdown .user-detail .user-email {
+  font-size: 12px;
+  padding: 10px 5px;
+}
+nav .account-dropdown .logout-container {
+  text-align: center;
+  padding: 10px;
+}/*# sourceMappingURL=App.css.map */
