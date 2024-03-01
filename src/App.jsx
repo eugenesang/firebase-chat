@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 
-import './App.css'
-import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup } from 'firebase/auth'
-import { getFirestore, onSnapshot, collection, addDoc, orderBy, query, serverTimestamp } from 'firebase/firestore'
-import { auth, app } from '../firebase'
+import './App.css';
 import Navbar from './components/NavBar'
+
+import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup } from 'firebase/auth'
+import { getFirestore, onSnapshot, collection, addDoc, orderBy, query, serverTimestamp, where } from 'firebase/firestore'
+
+import { auth, app } from '../firebase'
 
 const db = getFirestore(app)
 
@@ -62,6 +64,45 @@ function App() {
       console.log(error)
     }
   }
+
+  const handleLogin = async () => {
+    const provider = new GoogleAuthProvider();
+  
+    try {
+      // Trigger Google sign-in using a popup
+      const result = await signInWithPopup(auth, provider);
+  
+      // Extract user information
+      const email = result.user.email;
+      const name = result.user.displayName || ''; // Use display name if available, otherwise default to empty string
+  
+      // Check for existing account with the email
+      const accountsRef = collection(db, 'accounts');
+      const existingAccountQuerySnapshot = await query(accountsRef, where('email', '==', email)).get();
+  
+      if (existingAccountQuerySnapshot.size > 0) {
+        // Existing account found: Handle it accordingly
+        // (e.g., redirect to login, pre-fill user profile)
+        console.log('Existing account found: ', existingAccountQuerySnapshot.docs[0].data());
+      } else {
+        // Create a new account document
+        const accountDocRef = addDoc(accountsRef, {
+          name,
+          about: email, // Can add more fields as needed
+          email,
+          createdAt: serverTimestamp() // Add a creation timestamp
+        });
+  
+        // Update or create the "users" array in the "conversations" collection
+        
+  
+        console.log('Successfully created new account and added user to Firestore');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+  
   return (
     <div className='flex justify-center bg-gray-800 py-10 min-h-screen' >
       {user ? (
