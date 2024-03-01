@@ -27,17 +27,26 @@ nav .logo-container {
   cursor: default;
 }
 nav .logo-container .logo {
-  height: 30px;
-  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: gray;
 }
 nav .logo-container .logo img {
   height: 30px;
   width: 30px;
+}
+nav .user-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+nav .user-info .help, nav .user-info .notifications {
+  cursor: pointer;
+}
+nav .user-info .help i, nav .user-info .notifications i {
+  font-size: 20px;
 }
 nav .user-info .avatar-container {
   display: flex;
@@ -58,32 +67,108 @@ nav .account-dropdown {
   position: absolute;
   top: 100%;
   right: 10px;
-  padding-top: 10px;
-  border: 1px solid gray;
-}
-nav .account-dropdown .user-detail {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.5019607843);
+  border: 1px solid rgb(33, 33, 33);
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
   gap: 10px;
-  padding: 10px;
+  background-color: #242424;
 }
-nav .account-dropdown .user-detail .icon {
-  font-size: 20px;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid gray;
-  background-color: white;
-  border-radius: 50%;
-}
-nav .account-dropdown .user-detail .user-email {
-  font-size: 12px;
-  padding: 10px 5px;
-}
-nav .account-dropdown .logout-container {
+nav .account-dropdown > .email-container {
   text-align: center;
-  padding: 10px;
+}
+nav .account-dropdown > .email-container p {
+  padding: 0;
+  margin: 0;
+}
+nav .account-dropdown > .avatar-img {
+  text-align: center;
+}
+nav .account-dropdown > .avatar-img img {
+  height: 100px;
+  width: 100px;
+}
+nav .account-dropdown > .user-name {
+  text-align: center;
+}
+nav .account-dropdown > .user-name p {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+nav .account-dropdown > .account-action {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+}
+nav .account-dropdown > .account-action button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  font-weight: 400;
+}
+nav .account-dropdown > .account-action button:hover {
+  box-shadow: 0px 0px 4px 2px rgba(128, 128, 128, 0.5019607843);
+  color: white;
+}
+nav .account-dropdown > .actions {
+  min-width: 250px;
+  max-width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+nav .logout-ok-cancel-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  background-color: rgba(36, 36, 36, 0.1254901961);
+}
+nav .logout-ok-cancel-container .logout-ok-cancel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  gap: 40px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px rgba(128, 128, 128, 0.5019607843);
+  border: 1px solid rgb(33, 33, 33);
+  background-color: #242424;
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button {
+  width: 40%;
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button.okBtn {
+  background-color: rgb(0, 128, 255);
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button.okBtn:hover {
+  border-color: rgb(0, 128, 255);
+  color: rgb(0, 128, 255);
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button.cancelBtn {
+  background-color: rgb(255, 0, 68);
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button.cancelBtn:hover {
+  border-color: rgb(255, 0, 68);
+  color: rgb(255, 0, 68);
+}
+nav .logout-ok-cancel-container .logout-ok-cancel .actions button:hover {
+  background-color: #242424;
 }/*# sourceMappingURL=App.css.map */
