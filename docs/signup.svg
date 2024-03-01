@@ -9,7 +9,7 @@
     </defs>
     <rect x="0" y="0" width="1132" height="804" fill="white" />
     <g id="page1" transform="translate(5.5,5.5)">
-        <rect y="0" x="0" width="1123" height="794" fill="none" />
+        <rect y="0" x="0" width="1123" height="794" fill="white" stroke="black" stroke-width="1" />
         <g id="shape1" transform="translate(57.000000,374.850394)">
             <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
                 d="M22.0,44.0L78.0,44.0L78.0,44.0C90.2,44.0,100.0,34.2,100.0,22.0C100.0,9.8,90.2,.0,78.0,.0L22.0,.0L22.0,.0C9.8,.0,.0,9.8,.0,22.0C.0,34.2,9.8,44.0,22.0,44.0z" />
