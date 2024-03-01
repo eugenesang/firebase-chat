@@ -1,0 +1,166 @@
+<svg xmlns:ev="http://www.w3.org/2001/xml-events" width="1132" height="804" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1132 804" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="watermark_linear" y2="-11.9045" x2="3.49747" gradientUnits="userSpaceOnUse" x1="50.1818"
+            y1="56">
+            <stop stop-color="#0066FF" />
+            <stop offset="1" stop-color="#66CCFF" />
+        </linearGradient>
+    </defs>
+    <g id="page1" transform="translate(5.5,5.5)">
+        <rect y="0" x="0" width="1123" height="794" fill="none" />
+        <g id="shape1" transform="translate(57.000000,374.850394)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M22.0,44.0L78.0,44.0L78.0,44.0C90.2,44.0,100.0,34.2,100.0,22.0C100.0,9.8,90.2,.0,78.0,.0L22.0,.0L22.0,.0C9.8,.0,.0,9.8,.0,22.0C.0,34.2,9.8,44.0,22.0,44.0z" />
+            <text style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="26.6" x="28.0" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Signup</tspan>
+            </text>
+        </g>
+        <g id="shape2" transform="translate(157.000000,396.850394)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L45.0,.0" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M45.0,-3.0L51.0,.0L45.0,3.0L45.0,-3.0" />
+        </g>
+        <g id="shape3" transform="translate(208.000000,361.850394)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M100.0,70.0L100.0,.0L.0,.0L.0,70.0L100.0,70.0z" />
+            <circle cx="12.2" r="3.2" fill="#191919" cy="16.4" />
+            <circle cx="12.2" r="3.2" fill="#191919" cy="34.8" />
+            <circle cx="12.2" r="3.2" fill="#191919" cy="53.2" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="21.6" x="19.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Name</tspan>
+                <tspan y="40.0" x="19.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Email</tspan>
+                <tspan y="58.4" x="19.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">ID</tspan>
+            </text>
+        </g>
+        <g id="shape4" transform="translate(308.000000,396.850394)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L45.0,.0" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M45.0,-3.0L51.0,.0L45.0,3.0L45.0,-3.0" />
+        </g>
+        <g id="shape5" transform="translate(359.000000,346.069144)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M58.4,101.6L116.7,50.8L58.4,.0L.0,50.8L58.4,101.6z" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="46.4" x="41.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Email </tspan>
+                <tspan y="64.8" x="24.4" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">registered?
+                </tspan>
+            </text>
+        </g>
+        <g id="shape6" transform="translate(417.370000,346.069144)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L.0,-83.0" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M-3.0,-83.0L.0,-89.0L3.0,-83.0L-3.0,-83.0" />
+            <rect y="-54.3" x="-9.0" width="20.0" height="18.4" fill="#ffffff" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="-39.9" x="-9.0" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Yes</tspan>
+            </text>
+        </g>
+        <g id="shape7" transform="translate(367.370000,197.000000)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M100.0,60.0L100.0,.0L.0,.0L.0,60.0L100.0,60.0z" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="34.6" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Get account ref
+                </tspan>
+            </text>
+        </g>
+        <g id="shape8" transform="translate(417.370000,447.631644)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L.0,34.0" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M3.0,34.0L.0,40.0L-3.0,34.0L3.0,34.0" />
+            <rect y="10.2" x="-8.2" width="18.4" height="18.4" fill="#ffffff" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="24.6" x="-8.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">No</tspan>
+            </text>
+        </g>
+        <g id="shape9" transform="translate(341.870000,487.218750)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M151.0,159.6L151.0,.0L.0,.0L.0,159.6L151.0,159.6z" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="21.4" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Create account
+                </tspan>
+                <tspan y="39.8" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Email</tspan>
+                <tspan y="58.2" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Name</tspan>
+                <tspan y="76.6" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Default description</tspan>
+                <tspan y="95.0" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Account ref</tspan>
+                <tspan y="113.4" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Contact array (empty)</tspan>
+                <tspan y="150.2" x="3.2" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Return account ref</tspan>
+            </text>
+        </g>
+        <g id="shape10" transform="translate(526.740000,341.475394)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M67.9,110.8L135.7,55.4L67.9,.0L.0,55.4L67.9,110.8z" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="51.0" x="27.1" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Conversations</tspan>
+                <tspan y="69.4" x="42.3" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">exists?</tspan>
+            </text>
+        </g>
+        <g id="shape11" transform="translate(467.370000,227.000000)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L31.0,.0L31.0,169.9L53.0,169.9" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M53.0,166.9L59.0,169.9L53.0,172.9L53.0,166.9" />
+        </g>
+        <g id="shape12" transform="translate(492.870000,567.000000)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L28.0,.0L28.0,-170.1" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M28.0,-173.1L34.0,-170.1L28.0,-167.1L28.0,-173.1" />
+        </g>
+        <g id="shape13" transform="translate(594.610000,341.475394)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L.0,-54.0" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M-3.0,-54.0L.0,-60.0L3.0,-54.0L-3.0,-54.0" />
+            <rect y="-40.3" x="-12.2" width="26.4" height="19.2" fill="#ffffff" /><text
+                style="fill:#191919;font-family:Arial,PingFang SC,Mircrosoft YaHei,Arial;font-size:12.00pt"
+                xml:space="preserve">
+                <tspan y="-24.3" x="-12.2" style="font-family:Arial,PingFang SC,Mircrosoft YaHei,Arial">Yes</tspan>
+            </text>
+        </g>
+        <g id="shape14" transform="translate(526.740000,200.031394)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M135.7,81.4L135.7,.0L.0,.0L.0,81.4L135.7,81.4z" /><text
+                style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="36.6" x="3.6" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Conversations
+                </tspan>
+                <tspan y="55.0" x="3.6" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">- Self</tspan>
+            </text>
+        </g>
+        <g id="shape15" transform="translate(662.480000,396.850394)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L272.3,1.1" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M272.3,-1.9L278.3,1.1L272.2,4.1L272.3,-1.9" />
+            <rect y="-9.7" x="130.5" width="19.2" height="19.2" fill="#ffffff" /><text
+                style="fill:#191919;font-family:Arial,PingFang SC,Mircrosoft YaHei,Arial;font-size:12.00pt"
+                xml:space="preserve">
+                <tspan y="6.3" x="130.5" style="font-family:Arial,PingFang SC,Mircrosoft YaHei,Arial">No</tspan>
+            </text>
+        </g>
+        <g id="shape16" transform="translate(941.260000,368.124794)">
+            <path stroke-width="1" stroke="#101843" fill="#ffffff" fill-rule="nonzero"
+                d="M29.9,59.7L105.9,59.7L105.9,59.7C122.4,59.7,135.7,46.4,135.7,29.9C135.7,13.4,122.4,.0,105.9,.0L29.9,.0L29.9,.0C13.4,.0,.0,13.4,.0,29.9C.0,46.4,13.4,59.7,29.9,59.7z" />
+            <text style="fill:#191919;font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial;font-size:10.00pt"
+                xml:space="preserve">
+                <tspan y="34.6" x="46.7" style="font-family:Nunito,PingFang SC,Mircrosoft YaHei,Arial">Return</tspan>
+            </text>
+        </g>
+        <g id="shape17" transform="translate(663.000000,240.753394)">
+            <path stroke-width="1" stroke="#191919" fill="none" d="M.0,.0L250.0,.0L250.0,157.2L272.3,157.2" />
+            <path stroke-linecap="round" stroke-width="1" stroke="#191919" fill="#191919"
+                d="M272.3,154.2L278.3,157.2L272.3,160.2L272.3,154.2" />
+        </g>
+        <g id="shape18" transform="translate(40.000000,38.000000)"><text
+                style="fill:#191919;font-family:Quicksand,PingFang SC,Mircrosoft YaHei,Arial;font-size:36.00pt;font-weight:bold"
+                xml:space="preserve">
+                <tspan y="60.0" x="444.4" style="font-family:Quicksand,PingFang SC,Mircrosoft YaHei,Arial">Signup
+                </tspan>
+            </text></g>
+    </g>
+</svg>
