@@ -7,6 +7,7 @@
             <stop offset="1" stop-color="#66CCFF" />
         </linearGradient>
     </defs>
+    <rect x="0" y="0" width="1132" height="804" fill="white" />
     <g id="page1" transform="translate(5.5,5.5)">
         <rect y="0" x="0" width="1123" height="794" fill="none" />
         <g id="shape1" transform="translate(57.000000,374.850394)">
