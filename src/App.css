@@ -75,8 +75,21 @@ nav .account-dropdown {
   gap: 10px;
   background-color: #242424;
 }
+nav .account-dropdown > .cancel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+nav .account-dropdown > .cancel i {
+  font-size: 25px;
+}
 nav .account-dropdown > .email-container {
   text-align: center;
+  padding-top: 5px;
 }
 nav .account-dropdown > .email-container p {
   padding: 0;

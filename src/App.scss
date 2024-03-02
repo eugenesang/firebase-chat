@@ -81,9 +81,24 @@
         display: grid;
         gap: 10px; 
         background-color: #242424; 
+
+        &>.cancel{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            
+            i{
+                font-size: 25px;
+            }
+        }
         
         &>.email-container{
             text-align:center;
+            padding-top: 5px;
 
             p{
                 padding: 0;
