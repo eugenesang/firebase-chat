@@ -2,10 +2,13 @@ import { useState } from "react";
 
 import logo from "../logo.svg";
 
-const AccountDropDown = ({ user, logout }) => {
+const AccountDropDown = ({ user, logout, close }) => {
     const { displayName, photoURL, email } = user;
     return (
         <div className="account-dropdown">
+            <div className="cancel">
+                <i className="fas fa-xmark" onClick={close}></i>
+            </div>
             <div className="email-container">
                 <p>{email}</p>
             </div>
@@ -64,7 +67,7 @@ const Navbar = ({ user, logout }) => {
                     <img src={user.photoURL} alt={`${user.displayName} avatar`} />
                 </div>
             </div>
-            {showDropDown && <AccountDropDown user={user} logout={() => { setShowLogout(!showLogout) }} />}
+            {showDropDown && <AccountDropDown user={user} logout={() => { setShowLogout(!showLogout) }} close={() => { setShowDropDown(false) }} />}
             {showLogout && <LogoutOkCancel logout={logout} cancelLogout={() => { setShowLogout(false); }} />}
         </nav>
     );
